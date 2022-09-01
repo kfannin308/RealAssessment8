@@ -1,0 +1,9 @@
+<h1>Movie List</h1>
+
+<br />
+<br />
+<section *ngFor="let currMovie of movies"><b>Title: </b>&nbsp;{{currMovie.title}}&nbsp;&nbsp;<b>Release Year: </b> &nbsp;{{currMovie.releaseYear}} 
+</section>
+<br />
+<br />
+<p>Total Number of Movies: {{movies.length}}</p>
